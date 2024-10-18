@@ -1,5 +1,5 @@
-const cowsay = require("cowsay");
-const dotenv = require("dotenv");
+import cowsay from "cowsay";
+import dotenv from "dotenv";
 dotenv.config();
 
 const name = process.env.NAME;
